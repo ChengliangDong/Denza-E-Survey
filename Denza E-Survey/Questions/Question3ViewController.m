@@ -7,7 +7,7 @@
 //
 
 #import "Question3ViewController.h"
-
+#import "Question4ViewController.h"
 @interface Question3ViewController ()
 
 @end
@@ -76,6 +76,7 @@
 }
 -(void)viewDidUnload
 {
+    btnNext = nil;
     rating1 = nil;
     rating2 = nil;
     rating3 = nil;
@@ -95,4 +96,10 @@
     NSLog(@"SelectedRating:::%@",scale);
 }
 
+- (IBAction)btnNext:(id)sender {
+    //Load next question
+    Question4ViewController *objGroupView = [[Question4ViewController alloc] initWithNibName:@"Question4ViewController" bundle:nil];
+    objGroupView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:objGroupView animated:YES completion:^{}];
+}
 @end

@@ -14,5 +14,7 @@
      TDRatingView * rating2;
      TDRatingView * rating3;
      TDRatingView * rating4;
+     IBOutlet UIButton *btnNext;
 }
+- (IBAction)btnNext:(id)sender;
 @end

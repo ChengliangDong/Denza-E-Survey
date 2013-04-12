@@ -40,7 +40,7 @@
     }
     [objUserDefaults synchronize];
     
-    NSLog(kUserLanguage);
+    //NSLog(kUserLanguage);
     
     Questions1ViewController *objGroupView = [[Questions1ViewController alloc] initWithNibName:@"Questions1ViewController" bundle:nil];
     objGroupView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
