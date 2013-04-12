@@ -111,6 +111,77 @@
 }
 
 - (IBAction)brandGreen:(id)sender {
+    UIButton *button = (UIButton*)sender;
+    [self greenOption:button.tag]; //send user selected button tag to the function
+}
+-(void)greenOption:(NSInteger)index
+{
+    selectedGreen[index]++;
+    switch(index)
+    {
+        case 0:
+            if(selectedGreen[index] == 1)
+            {
+                greenNumber++;
+                NSString  *greenString = [NSString stringWithFormat:@"%d",greenNumber];
+                label_Green1.text = greenString;//greenNumber;
+            }
+            break;
+        case 1:
+            if(selectedGreen[index] == 1)
+            {
+                greenNumber++;
+                NSString  *greenString = [NSString stringWithFormat:@"%d",greenNumber];
+                label_Green2.text = greenString;//greenNumber;
+            }
+            break;
+        case 2:
+            if(selectedGreen[index] == 1)
+            {
+                greenNumber++;
+                NSString  *greenString = [NSString stringWithFormat:@"%d",greenNumber];
+                label_Green3.text = greenString;//greenNumber;
+            }
+            break;
+        case 3:
+            if(selectedGreen[index] == 1)
+            {
+                greenNumber++;
+                NSString  *greenString = [NSString stringWithFormat:@"%d",greenNumber];
+                label_Green4.text = greenString;//greenNumber;
+            }
+            break;
+        case 4:
+            if(selectedGreen[index] == 1)
+            {
+                greenNumber++;
+                NSString  *greenString = [NSString stringWithFormat:@"%d",greenNumber];
+                label_Green5.text = greenString;//greenNumber;
+            }
+            break;
+        case 5:
+            if(selectedGreen[index] == 1)
+            {
+                greenNumber++;
+                NSString  *greenString = [NSString stringWithFormat:@"%d",greenNumber];
+                label_Green6.text = greenString;//greenNumber;
+            }
+            break;
+        case 6:
+            if(selectedGreen[index] == 1)
+            {
+                greenNumber++;
+                NSString  *greenString = [NSString stringWithFormat:@"%d",greenNumber];
+                label_Green7.text = greenString;//greenNumber;
+            }
+            break;
+        default:
+            break;
+            
+            
+    }
+    
+    
 }
 
 - (IBAction)btn_Ques:(id)sender {
@@ -132,6 +203,18 @@
     for(int i = 0; i < 10; i++)
     {
         selectedRank[i] = 1;
+    }
+    label_Green1 = nil;
+    label_Green2 = nil;
+    label_Green3 = nil;
+    label_Green4 = nil;
+    label_Green5 = nil;
+    label_Green6 = nil;
+    label_Green7 = nil;
+    greenNumber = 1;
+    for(int i = 0; i < 10; i++)
+    {
+        selectedGreen[i] = 1;
     }
     [super viewDidUnload];
 }
