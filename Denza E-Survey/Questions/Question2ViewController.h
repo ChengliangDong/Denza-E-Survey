@@ -10,12 +10,12 @@
 
 @interface Question2ViewController : UIViewController
 {
-    __unsafe_unretained IBOutlet UIImageView *imageA;
-    __unsafe_unretained IBOutlet UIImageView *imageB;
-    __unsafe_unretained IBOutlet UIImageView *imageC;
-    __unsafe_unretained IBOutlet UIImageView *imageD;
-    __unsafe_unretained IBOutlet UIImageView *imageE;
-    __unsafe_unretained IBOutlet UIImageView *imageF;
+     IBOutlet UIImageView *imageA;
+     IBOutlet UIImageView *imageB;
+     IBOutlet UIImageView *imageC;
+     IBOutlet UIImageView *imageD;
+     IBOutlet UIImageView *imageE;
+     IBOutlet UIImageView *imageF;
     
     bool selectedAnswer[10];
     
