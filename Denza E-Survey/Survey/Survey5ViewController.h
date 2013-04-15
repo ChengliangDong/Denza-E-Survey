@@ -10,7 +10,21 @@
 
 @interface Survey5ViewController : UIViewController
 {
+    IBOutlet UIImageView *imageA;
+    IBOutlet UIImageView *imageB;
+    IBOutlet UIImageView *imageC;
+    IBOutlet UIImageView *imageD;
+    IBOutlet UIImageView *imageE;
+    IBOutlet UIImageView *imageF;
+    IBOutlet UIImageView *imageG;
+    IBOutlet UIImageView *imageH;
+    IBOutlet UIImageView *imageI;
+    IBOutlet UIImageView *imageJ;
+    IBOutlet UIImageView *imageK;
+    
+    BOOL selectedAnswer[12];
     
 }
 - (IBAction)next_Survey:(id)sender;
+- (IBAction)selectAnswer:(id)sender;
 @end

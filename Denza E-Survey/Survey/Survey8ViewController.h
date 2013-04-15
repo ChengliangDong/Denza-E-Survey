@@ -10,7 +10,12 @@
 
 @interface Survey8ViewController : UIViewController
 {
+    IBOutlet UIImageView *imageA;
+    IBOutlet UIImageView *imageB;
+    
+    BOOL selectedAnswer[10];
     
 }
 - (IBAction)next_Survey:(id)sender;
+- (IBAction)selectAnswer:(id)sender;
 @end

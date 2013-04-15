@@ -28,7 +28,7 @@
      IBOutlet UILabel *label_Green6;
      IBOutlet UILabel *label_Green7;
     
-    __unsafe_unretained IBOutlet UIButton *btn_Ques;
+    IBOutlet UIButton *btn_Ques;
     int selectedRank[10];
     int rankNumber;
     int selectedGreen[10];

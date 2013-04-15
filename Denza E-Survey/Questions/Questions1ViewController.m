@@ -8,6 +8,7 @@
 
 #import "Questions1ViewController.h"
 #import "Question2ViewController.h"
+#import "Question3ViewController.h"
 
 @interface Questions1ViewController ()
 
@@ -99,10 +100,19 @@
     
     if(isSelected)
     {
+        if(selectedAnswer[0])
+        {
         //Load next question
         Question2ViewController *objGroupView = [[Question2ViewController alloc] initWithNibName:@"Question2ViewController" bundle:nil];
         objGroupView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
         [self presentViewController:objGroupView animated:YES completion:^{}];
+        }
+        else {
+            //Load next question
+            Question3ViewController *objGroupView = [[Question3ViewController alloc] initWithNibName:@"Question3ViewController" bundle:nil];
+            objGroupView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+            [self presentViewController:objGroupView animated:YES completion:^{}];
+        }
     }
 }
 

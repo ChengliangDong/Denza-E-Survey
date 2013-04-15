@@ -10,8 +10,14 @@
 
 @interface Question6ViewController : UIViewController
 {
+    IBOutlet UIImageView *imageA;
+    IBOutlet UIImageView *imageB;
+    IBOutlet UIImageView *imageC;
+    
+    BOOL selectedAnswer[10];
     
 }
 - (IBAction)next_Ques:(id)sender;
+- (IBAction)selectAnswer:(id)sender;
 
 @end

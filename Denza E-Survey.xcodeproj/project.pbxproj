@@ -11,8 +11,6 @@
 		15AFC6AB1717E3B3007D55E1 /* Question2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15AFC6A91717E3B3007D55E1 /* Question2ViewController.xib */; };
 		15FAF9D6171695B500292762 /* Question4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FAF9D4171695B500292762 /* Question4ViewController.m */; };
 		15FAF9D7171695B500292762 /* Question4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FAF9D5171695B500292762 /* Question4ViewController.xib */; };
-		15FAF9DB17169B8E00292762 /* Question5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FAF9D917169B8D00292762 /* Question5ViewController.m */; };
-		15FAF9DC17169B8E00292762 /* Question5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FAF9DA17169B8D00292762 /* Question5ViewController.xib */; };
 		15FAF9E01716A09A00292762 /* Question6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FAF9DE1716A09900292762 /* Question6ViewController.m */; };
 		15FAF9E11716A09A00292762 /* Question6ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15FAF9DF1716A09900292762 /* Question6ViewController.xib */; };
 		15FAF9E51716A5D800292762 /* Question7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FAF9E31716A5D700292762 /* Question7ViewController.m */; };
@@ -81,6 +79,8 @@
 		623B248917108BC400D0B3DF /* TDRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 623B248717108BC400D0B3DF /* TDRatingView.m */; };
 		623B248D17108BE400D0B3DF /* Question3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623B248B17108BE400D0B3DF /* Question3ViewController.m */; };
 		623B248E17108BE400D0B3DF /* Question3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 623B248C17108BE400D0B3DF /* Question3ViewController.xib */; };
+		CED808D9171A6FDE00D17CF7 /* Question5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED808D7171A6FDE00D17CF7 /* Question5ViewController.m */; };
+		CED808DA171A6FDE00D17CF7 /* Question5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED808D8171A6FDE00D17CF7 /* Question5ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,9 +100,6 @@
 		15FAF9D3171695B500292762 /* Question4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question4ViewController.h; path = Questions/Question4ViewController.h; sourceTree = "<group>"; };
 		15FAF9D4171695B500292762 /* Question4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question4ViewController.m; path = Questions/Question4ViewController.m; sourceTree = "<group>"; };
 		15FAF9D5171695B500292762 /* Question4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Question4ViewController.xib; path = Questions/Question4ViewController.xib; sourceTree = "<group>"; };
-		15FAF9D817169B8D00292762 /* Question5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question5ViewController.h; path = Questions/Question5ViewController.h; sourceTree = "<group>"; };
-		15FAF9D917169B8D00292762 /* Question5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question5ViewController.m; path = Questions/Question5ViewController.m; sourceTree = "<group>"; };
-		15FAF9DA17169B8D00292762 /* Question5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Question5ViewController.xib; path = Questions/Question5ViewController.xib; sourceTree = "<group>"; };
 		15FAF9DD1716A09900292762 /* Question6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question6ViewController.h; path = Questions/Question6ViewController.h; sourceTree = "<group>"; };
 		15FAF9DE1716A09900292762 /* Question6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question6ViewController.m; path = Questions/Question6ViewController.m; sourceTree = "<group>"; };
 		15FAF9DF1716A09900292762 /* Question6ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Question6ViewController.xib; path = Questions/Question6ViewController.xib; sourceTree = "<group>"; };
@@ -199,6 +196,9 @@
 		623B248A17108BE400D0B3DF /* Question3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question3ViewController.h; path = Questions/Question3ViewController.h; sourceTree = "<group>"; };
 		623B248B17108BE400D0B3DF /* Question3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question3ViewController.m; path = Questions/Question3ViewController.m; sourceTree = "<group>"; };
 		623B248C17108BE400D0B3DF /* Question3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Question3ViewController.xib; path = Questions/Question3ViewController.xib; sourceTree = "<group>"; };
+		CED808D6171A6FDE00D17CF7 /* Question5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question5ViewController.h; path = Questions/Question5ViewController.h; sourceTree = "<group>"; };
+		CED808D7171A6FDE00D17CF7 /* Question5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question5ViewController.m; path = Questions/Question5ViewController.m; sourceTree = "<group>"; };
+		CED808D8171A6FDE00D17CF7 /* Question5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Question5ViewController.xib; path = Questions/Question5ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -384,9 +384,9 @@
 				15FAF9D3171695B500292762 /* Question4ViewController.h */,
 				15FAF9D4171695B500292762 /* Question4ViewController.m */,
 				15FAF9D5171695B500292762 /* Question4ViewController.xib */,
-				15FAF9D817169B8D00292762 /* Question5ViewController.h */,
-				15FAF9D917169B8D00292762 /* Question5ViewController.m */,
-				15FAF9DA17169B8D00292762 /* Question5ViewController.xib */,
+				CED808D6171A6FDE00D17CF7 /* Question5ViewController.h */,
+				CED808D7171A6FDE00D17CF7 /* Question5ViewController.m */,
+				CED808D8171A6FDE00D17CF7 /* Question5ViewController.xib */,
 				15FAF9DD1716A09900292762 /* Question6ViewController.h */,
 				15FAF9DE1716A09900292762 /* Question6ViewController.m */,
 				15FAF9DF1716A09900292762 /* Question6ViewController.xib */,
@@ -507,7 +507,6 @@
 				623B248E17108BE400D0B3DF /* Question3ViewController.xib in Resources */,
 				621F94071715064700CF8261 /* white-bg.jpg in Resources */,
 				15FAF9D7171695B500292762 /* Question4ViewController.xib in Resources */,
-				15FAF9DC17169B8E00292762 /* Question5ViewController.xib in Resources */,
 				15FAF9E11716A09A00292762 /* Question6ViewController.xib in Resources */,
 				15FAF9E61716A5D800292762 /* Question7ViewController.xib in Resources */,
 				15FAF9EB1716A80B00292762 /* Question8ViewController.xib in Resources */,
@@ -527,6 +526,7 @@
 				15FAFA321716C26800292762 /* Survey12ViewController.xib in Resources */,
 				15FAFA341716C4F600292762 /* checkbutton.png in Resources */,
 				15AFC6AB1717E3B3007D55E1 /* Question2ViewController.xib in Resources */,
+				CED808DA171A6FDE00D17CF7 /* Question5ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,7 +569,6 @@
 				623B248917108BC400D0B3DF /* TDRatingView.m in Sources */,
 				623B248D17108BE400D0B3DF /* Question3ViewController.m in Sources */,
 				15FAF9D6171695B500292762 /* Question4ViewController.m in Sources */,
-				15FAF9DB17169B8E00292762 /* Question5ViewController.m in Sources */,
 				15FAF9E01716A09A00292762 /* Question6ViewController.m in Sources */,
 				15FAF9E51716A5D800292762 /* Question7ViewController.m in Sources */,
 				15FAF9EA1716A80B00292762 /* Question8ViewController.m in Sources */,
@@ -588,6 +587,7 @@
 				15FAFA2C1716C23E00292762 /* Survey11ViewController.m in Sources */,
 				15FAFA311716C26800292762 /* Survey12ViewController.m in Sources */,
 				15AFC6AA1717E3B3007D55E1 /* Question2ViewController.m in Sources */,
+				CED808D9171A6FDE00D17CF7 /* Question5ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
