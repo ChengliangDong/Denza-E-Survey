@@ -102,4 +102,8 @@
     objGroupView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:objGroupView animated:YES completion:^{}];
 }
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight ); }
 @end

@@ -1,18 +1,18 @@
 //
-//  Survey10ViewController.m
+//  QuestionViewController.m
 //  Denza E-Survey
 //
-//  Created by Town Chen on 4/11/13.
+//  Created by Town Chen on 4/15/13.
 //  Copyright (c) 2013 Dong. All rights reserved.
 //
 
-#import "Survey10ViewController.h"
-#import "Survey11ViewController.h"
-@interface Survey10ViewController ()
+#import "QuestionViewController.h"
+#import "WelcomeViewController.h"
+@interface QuestionViewController ()
 
 @end
 
-@implementation Survey10ViewController
+@implementation QuestionViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -46,21 +46,21 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)next_Survey:(id)sender {
-    //Load next question
-    Survey11ViewController *objGroupView = [[Survey11ViewController alloc] initWithNibName:@"Survey11ViewController" bundle:nil];
-    objGroupView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-    [self presentViewController:objGroupView animated:YES completion:^{}];
-}
-
-- (IBAction)selectAnswer:(id)sender {
-    UIButton *button = (UIButton*)sender;
-    [self selectOption:button.tag]; //send user selected button tag to the function
-}
 - (void)viewDidUnload {
     imageA = nil;
     imageB = nil;
     [super viewDidUnload];
+}
+- (IBAction)selectAnswer:(id)sender {
+    UIButton *button = (UIButton*)sender;
+    [self selectOption:button.tag]; //send user selected button tag to the function
+}
+
+- (IBAction)next_Ques:(id)sender {
+    //Load next question
+    WelcomeViewController *objGroupView = [[WelcomeViewController alloc] initWithNibName:@"WelcomeViewController" bundle:nil];
+    objGroupView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:objGroupView animated:YES completion:^{}];
 }
 
 //Make the UIButton & UIImage reponse to user selection

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1598145C171BAA0E0099598B /* homepage_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1598145B171BAA0E0099598B /* homepage_bg.jpg */; };
+		15981460171BAF0F0099598B /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1598145E171BAF0D0099598B /* QuestionViewController.m */; };
+		15981461171BAF0F0099598B /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1598145F171BAF0E0099598B /* QuestionViewController.xib */; };
+		15981463171BAFDF0099598B /* logo-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15981462171BAFDF0099598B /* logo-bg.jpg */; };
+		15981467171BB7DF0099598B /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15981465171BB7DD0099598B /* WelcomeViewController.m */; };
+		15981468171BB7DF0099598B /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15981466171BB7DE0099598B /* WelcomeViewController.xib */; };
+		1598146B171BE52C0099598B /* button4_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 15981469171BE52B0099598B /* button4_down.png */; };
+		1598146C171BE52C0099598B /* button4_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 1598146A171BE52B0099598B /* button4_up.png */; };
 		15AFC6AA1717E3B3007D55E1 /* Question2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC6A81717E3B3007D55E1 /* Question2ViewController.m */; };
 		15AFC6AB1717E3B3007D55E1 /* Question2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15AFC6A91717E3B3007D55E1 /* Question2ViewController.xib */; };
 		15FAF9D6171695B500292762 /* Question4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FAF9D4171695B500292762 /* Question4ViewController.m */; };
@@ -94,6 +102,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1598145B171BAA0E0099598B /* homepage_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homepage_bg.jpg; sourceTree = "<group>"; };
+		1598145D171BAF0C0099598B /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionViewController.h; path = Questions/QuestionViewController.h; sourceTree = "<group>"; };
+		1598145E171BAF0D0099598B /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionViewController.m; path = Questions/QuestionViewController.m; sourceTree = "<group>"; };
+		1598145F171BAF0E0099598B /* QuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QuestionViewController.xib; path = Questions/QuestionViewController.xib; sourceTree = "<group>"; };
+		15981462171BAFDF0099598B /* logo-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-bg.jpg"; sourceTree = "<group>"; };
+		15981464171BB7DC0099598B /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeViewController.h; path = Questions/WelcomeViewController.h; sourceTree = "<group>"; };
+		15981465171BB7DD0099598B /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeViewController.m; path = Questions/WelcomeViewController.m; sourceTree = "<group>"; };
+		15981466171BB7DE0099598B /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WelcomeViewController.xib; path = Questions/WelcomeViewController.xib; sourceTree = "<group>"; };
+		15981469171BE52B0099598B /* button4_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button4_down.png; sourceTree = "<group>"; };
+		1598146A171BE52B0099598B /* button4_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button4_up.png; sourceTree = "<group>"; };
 		15AFC6A71717E3B3007D55E1 /* Question2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question2ViewController.h; path = Questions/Question2ViewController.h; sourceTree = "<group>"; };
 		15AFC6A81717E3B3007D55E1 /* Question2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question2ViewController.m; path = Questions/Question2ViewController.m; sourceTree = "<group>"; };
 		15AFC6A91717E3B3007D55E1 /* Question2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Question2ViewController.xib; path = Questions/Question2ViewController.xib; sourceTree = "<group>"; };
@@ -354,6 +372,10 @@
 		623B2464171022A100D0B3DF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				15981469171BE52B0099598B /* button4_down.png */,
+				1598146A171BE52B0099598B /* button4_up.png */,
+				15981462171BAFDF0099598B /* logo-bg.jpg */,
+				1598145B171BAA0E0099598B /* homepage_bg.jpg */,
 				15FAFA331716C4F600292762 /* checkbutton.png */,
 				621F94061715064700CF8261 /* white-bg.jpg */,
 				623B247C1710531F00D0B3DF /* button2_down.png */,
@@ -372,6 +394,12 @@
 		623B247017104ECF00D0B3DF /* Questions */ = {
 			isa = PBXGroup;
 			children = (
+				1598145D171BAF0C0099598B /* QuestionViewController.h */,
+				1598145E171BAF0D0099598B /* QuestionViewController.m */,
+				1598145F171BAF0E0099598B /* QuestionViewController.xib */,
+				15981464171BB7DC0099598B /* WelcomeViewController.h */,
+				15981465171BB7DD0099598B /* WelcomeViewController.m */,
+				15981466171BB7DE0099598B /* WelcomeViewController.xib */,
 				623B247117104F2100D0B3DF /* Questions1ViewController.h */,
 				623B247217104F2100D0B3DF /* Questions1ViewController.m */,
 				623B247317104F2100D0B3DF /* Questions1ViewController.xib */,
@@ -527,6 +555,12 @@
 				15FAFA341716C4F600292762 /* checkbutton.png in Resources */,
 				15AFC6AB1717E3B3007D55E1 /* Question2ViewController.xib in Resources */,
 				CED808DA171A6FDE00D17CF7 /* Question5ViewController.xib in Resources */,
+				1598145C171BAA0E0099598B /* homepage_bg.jpg in Resources */,
+				15981461171BAF0F0099598B /* QuestionViewController.xib in Resources */,
+				15981463171BAFDF0099598B /* logo-bg.jpg in Resources */,
+				15981468171BB7DF0099598B /* WelcomeViewController.xib in Resources */,
+				1598146B171BE52C0099598B /* button4_down.png in Resources */,
+				1598146C171BE52C0099598B /* button4_up.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +622,8 @@
 				15FAFA311716C26800292762 /* Survey12ViewController.m in Sources */,
 				15AFC6AA1717E3B3007D55E1 /* Question2ViewController.m in Sources */,
 				CED808D9171A6FDE00D17CF7 /* Question5ViewController.m in Sources */,
+				15981460171BAF0F0099598B /* QuestionViewController.m in Sources */,
+				15981467171BB7DF0099598B /* WelcomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

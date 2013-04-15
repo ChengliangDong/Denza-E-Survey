@@ -7,7 +7,7 @@
 //
 
 #import "WonderlabsViewController.h"
-#import "Questions1ViewController.h"
+#import "QuestionViewController.h"
 @interface WonderlabsViewController ()
 
 @end
@@ -42,10 +42,14 @@
     
     //NSLog(kUserLanguage);
     
-    Questions1ViewController *objGroupView = [[Questions1ViewController alloc] initWithNibName:@"Questions1ViewController" bundle:nil];
+    QuestionViewController *objGroupView = [[QuestionViewController alloc] initWithNibName:@"QuestionViewController" bundle:nil];
     objGroupView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:objGroupView animated:YES completion:^{}];
     
     
 }
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight ); }
 @end

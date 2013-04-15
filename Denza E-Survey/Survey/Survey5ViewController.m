@@ -45,7 +45,7 @@
     imageH.image = [UIImage imageNamed:@"button2_up.png"];
     imageI.image = [UIImage imageNamed:@"button2_up.png"];
     imageJ.image = [UIImage imageNamed:@"button2_up.png"];
-    imageK.image = [UIImage imageNamed:@"button2_up.png"];
+    imageK.image = [UIImage imageNamed:@"button4_up.png"];
     
 }
 
@@ -190,10 +190,10 @@
         case 10:
             if (selectedAnswer[index])
             {
-                imageK.image = [UIImage imageNamed:@"button2_down.png"];
+                imageK.image = [UIImage imageNamed:@"button4_down.png"];
             }
             else{
-                imageK.image = [UIImage imageNamed:@"button2_up.png"];
+                imageK.image = [UIImage imageNamed:@"button4_up.png"];
             }
             
             break;
@@ -204,4 +204,8 @@
     
     
 }
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight ); }
 @end

@@ -81,7 +81,7 @@
     //selectedAnswer[index] = YES;
     switch (index) {
         case 0:
-            NSLog(@"00000");
+            //NSLog(@"00000");
             if (selectedAnswer[index])
             {
                 imageA.image = [UIImage imageNamed:@"button2_down.png"];
@@ -92,7 +92,7 @@
             break;
             
         case 1:
-            NSLog(@"11111");
+            //NSLog(@"11111");
             if (selectedAnswer[index])
             {
                 imageB.image = [UIImage imageNamed:@"button2_down.png"];
@@ -103,7 +103,7 @@
             
             break;
         case 2:
-            NSLog(@"22222");
+            //NSLog(@"22222");
             if (selectedAnswer[index])
             {
                 imageC.image = [UIImage imageNamed:@"button2_down.png"];
@@ -114,7 +114,7 @@
             
             break;
         case 3:
-            NSLog(@"33333");
+            //NSLog(@"33333");
             if (selectedAnswer[index])
             {
                 imageD.image = [UIImage imageNamed:@"button2_down.png"];
@@ -125,7 +125,7 @@
             
             break;
         case 4:
-            NSLog(@"44444");
+            //NSLog(@"44444");
             if (selectedAnswer[index])
             {
                 imageE.image = [UIImage imageNamed:@"button2_down.png"];
@@ -136,7 +136,7 @@
             
             break;
         case 5:
-            NSLog(@"55555");
+            //NSLog(@"55555");
             if (selectedAnswer[index])
             {
                 imageF.image = [UIImage imageNamed:@"button2_down.png"];
@@ -148,10 +148,14 @@
             break;
             
         default:
-            NSLog(@"default");
+            //NSLog(@"default");
             break;
     }
     
     
 }
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight ); }
 @end

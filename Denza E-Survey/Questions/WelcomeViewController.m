@@ -1,18 +1,18 @@
 //
-//  Survey12ViewController.m
+//  WelcomeViewController.m
 //  Denza E-Survey
 //
-//  Created by Town Chen on 4/11/13.
+//  Created by Town Chen on 4/15/13.
 //  Copyright (c) 2013 Dong. All rights reserved.
 //
 
-#import "Survey12ViewController.h"
-
-@interface Survey12ViewController ()
+#import "WelcomeViewController.h"
+#import "Questions1ViewController.h"
+@interface WelcomeViewController ()
 
 @end
 
-@implementation Survey12ViewController
+@implementation WelcomeViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,7 +35,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)submit:(id)sender {
+- (IBAction)enterQues:(id)sender {
+    //Load next question
+    Questions1ViewController *objGroupView = [[Questions1ViewController alloc] initWithNibName:@"Questions1ViewController" bundle:nil];
+    objGroupView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:objGroupView animated:YES completion:^{}];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
